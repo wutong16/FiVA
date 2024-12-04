@@ -3,15 +3,15 @@
 [**Project page**](https://fiva-dataset.github.io/) | [**Paper**]() | [**Data**](https://huggingface.co/datasets/FiVA/FiVA)
 
 
-[**Tong Wu**](https://wutong16.github.io/),
-[**Yinghao Xu**](https://justimyhxu.github.io/),
-[**Ryan Po**](https://ryanpo.com/),
-[**Mengchen Zhang**](https://kszpxxzmc.github.io/),
-[**Guandao Yang**](https://www.guandaoyang.com/),
-[**Jiaqi Wang**](https://myownskyw7.github.io/),
-[**Ziwei Liu**](https://liuziwei7.github.io/), 
-[**Dahua Lin️**](http://dahua.me/)
-[**Gordon Wetzstein**](https://stanford.edu/~gordonwz/)
+[Tong Wu](https://wutong16.github.io/),
+[Yinghao Xu](https://justimyhxu.github.io/),
+[Ryan Po](https://ryanpo.com/),
+[Mengchen Zhang](https://kszpxxzmc.github.io/),
+[Guandao Yang](https://www.guandaoyang.com/),
+[Jiaqi Wang](https://myownskyw7.github.io/),
+[Ziwei Liu](https://liuziwei7.github.io/), 
+[Dahua Lin️](http://dahua.me/),
+[Gordon Wetzstein](https://stanford.edu/~gordonwz/)
 
 
 <p align="center">
@@ -25,17 +25,17 @@
 ## Introduction
 
 **TL;DR:** We constructed a fine-grained visual attributes dataset and a framework that 
-decouples and adapts different visual attributes from one or more source images into a generated one.
+decouples different visual attributes from source images and adapts them during text-to-image generation.
 
 ![arch](assets/teaser.jpg)
 
 ## Examples
-We can incorporate different attributes from multiple reference images and integrate them into the target subject, 
+Our model can incorporate different attributes from multiple reference images **V(image, attr_name)** and integrate them into the target subject **T(subject)**, 
 while also being capable of extracting various visual attributes from the same reference image based on distinct attribute names.
 ![arch](assets/examples.jpg)
 
 ## Release
-🚀 Our code and pretrained models will be released within two weeks. 
+🚀 Our code and pretrained models will be released in Mid December. 
 
 
 ## Citation
